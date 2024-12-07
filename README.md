@@ -236,7 +236,7 @@ It contained another zip file and an executable:
 
 I just used `strings` on the executable and I found the text `Correct! The next hint is: DollRussian`
 
-So i used `DollRussian` as a password to open the next zip file.
+So i used "DollRussian" as a password to open the next zip file.
 
 It showed yet another zip file and a db file.
 
