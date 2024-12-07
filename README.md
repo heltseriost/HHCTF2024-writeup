@@ -155,7 +155,6 @@ from pwn import *
 
 p = remote("ctfeh.hh.se", 7005)
 
-# Dictionary of questions and answers
 qa_pairs = {
     "Who is the author of *Sherlock Holmes*?": "Arthur Conan Doyle",
     "Which fictional detective is known for saying, 'Elementary, my dear Watson'?": "Sherlock Holmes",
@@ -174,7 +173,6 @@ qa_pairs = {
     "In what year did Agatha Christie disappear for 11 days?": "1926",
 }
 
-# Send answers
 for question, answer in qa_pairs.items():
     p.sendlineafter(question, answer)
 
