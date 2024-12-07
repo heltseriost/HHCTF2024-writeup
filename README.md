@@ -88,7 +88,7 @@ I did not notice any hints of a password so I decided to use `fcrackzip` with th
 
 Running the `file` command on the extracted file `maniacal_plans.zip` revealed that it was not a zip file but a text-file.
 
-When i used `cat` i found this text:
+I checked it's contents:
 
 <img width="1270" alt="SCR-20241207-llla" src="https://github.com/user-attachments/assets/336437e9-57b1-4dd8-969b-302b8a31c7f1">
 
