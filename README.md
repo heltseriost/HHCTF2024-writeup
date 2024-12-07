@@ -148,7 +148,7 @@ In this challenge, we were tasked with connecting to a server with netcat to ans
 
 We were provided with a file called `answers.txt` to every question. However the timer was to short to enter manually so it required a script.
 
-I used `pwntools` with a dictionary and a for-loop:
+I converted the contents in answers.txt to a dictionary format and used `pwntools` and a for-loop to iterate through it:
 
 ```python
 from pwn import *
