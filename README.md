@@ -96,7 +96,7 @@ So I tried entering it as a flag, and it worked!
 
 ---
 
-### ***Goodtimes with the Gang ***
+### ***Goodtimes with the Gang***
 
 **THIS CHALLENGE WAS SOLVED AFTER THE CTF HAD ENDED!**
 
