@@ -173,7 +173,7 @@ questions_and_answers = {
     "In what year did Agatha Christie disappear for 11 days?": "1926",
 }
 
-for question, answer in question_and_answers.items():
+for question, answer in questions_and_answers.items():
     p.sendlineafter(question, answer)
 
 p.interactive()
