@@ -5,13 +5,11 @@ Timespan: 5 hours
 
 Part of team: mystery-masters (2nd place)
 
-
-
 ---
 
 ### ***The First Cuts***
 
-*Category: Memory-forensics*,  *Points: 241*
+*Category: Memory-forensics*,  *Points: 241*, *Difficulty: Easy*
 
 The first challenge for analyzing the memory dump `memory.dmp`.
 
@@ -29,7 +27,7 @@ A simple `strings` command on the `.dmp` file with `grep` got me the flag.
 
 ### ***Code of Misconduct***
 
-*Category: Memory-forensics*,  *Points: 482* 
+*Category: Memory-forensics*,  *Points: 482*, *Difficulty: Easy*
 
 In this challenge, we were tasked with finding a malicious executable.
 
@@ -59,7 +57,7 @@ I found this:
 
 ### ***Zip-a-Dee-Doo-Dah***
 
-*Category: Memory-forensics*,  *Points: 498* 
+*Category: Memory-forensics*, *Points: 498*, *Difficulty: Hard* 
 
 In this challenge this text was in the description:
 
@@ -104,7 +102,7 @@ So I tried entering it as a flag, and it worked!
 
 **THIS CHALLENGE WAS SOLVED AFTER THE CTF HAD ENDED!**
 
-*Category: Memory-forensics*,  *Points: 482 (0 DUE TO LATE SUBMISSION)* 
+*Category: Memory-forensics*,  *Points: 482 (0 DUE TO LATE SUBMISSION)*, *Difficulty: Medium*
 
 In this challenge, we were got this description: 
 
@@ -142,7 +140,7 @@ Steghide showed a hidden file so I downloaded it and opened it:
 
 ### ***Quiz***
 
-*Category: Programming*,  *Points: 50* 
+*Category: Programming*,  *Points: 50*, *Difficulty: Easy*
 
 In this challenge, we were tasked with connecting to a server with netcat to answer a quiz.
 
@@ -184,9 +182,9 @@ p.interactive()
 
 `The flag is HHCTF{QuiZZy_m4st3R_oF_s3crets}`.
 
-### ***Code of Misconduct***
+### ***Bolted chest***
 
-*Category: Forensics*,  *Points: 50* 
+*Category: Forensics*,  *Points: 50*, *Difficulty: Easy*
 
 In this challenge, we got a .tiff file and this description:
 
@@ -204,7 +202,7 @@ so i extracted it with `binwalk -e seamenschest.tiff` and I found a text file ca
 
 ### ***Russian_Doll***
 
-*Category: Misc*,  *Points: 50* 
+*Category: Misc*,  *Points: 50*, *Difficulty: Medium*
 
 In this challenge, we got a zip file with a directory containing the following contents:
 
@@ -262,5 +260,17 @@ I decoded it and got the flag:
 
 ---
 
+### ***Bit By Bit***
+
+*Category: Forensics*,  *Points: 50*, *Difficulty: Easy*
+
+A simple `strings` command on the file with `grep` got me the flag.
+
+<img width="306" alt="SCR-20241207-ubyv" src="https://github.com/user-attachments/assets/66c93526-1499-44e4-8e32-4ab2adf4e8a6">
+
+
+`The flag is HHCTF{th4t_w4s_A_8it_3aSy}`.
+
+---
 
 
