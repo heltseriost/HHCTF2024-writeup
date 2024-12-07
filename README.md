@@ -155,7 +155,7 @@ from pwn import *
 
 p = remote("ctfeh.hh.se", 7005)
 
-qa_pairs = {
+questions_and_answers = {
     "Who is the author of *Sherlock Holmes*?": "Arthur Conan Doyle",
     "Which fictional detective is known for saying, 'Elementary, my dear Watson'?": "Sherlock Holmes",
     "In *The Maltese Falcon*, who is the private detective?": "Sam Spade",
@@ -173,7 +173,7 @@ qa_pairs = {
     "In what year did Agatha Christie disappear for 11 days?": "1926",
 }
 
-for question, answer in qa_pairs.items():
+for question, answer in question_and_answers.items():
     p.sendlineafter(question, answer)
 
 p.interactive()
