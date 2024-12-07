@@ -3,7 +3,7 @@ Solved challenges for HHCTF 2024
 
 Timespan: 5 hours
 
-Part of team: mystery-masters
+Part of team: mystery-masters (2nd place)
 
 
 
@@ -104,7 +104,7 @@ So I tried entering it as a flag, and it worked!
 
 **THIS CHALLENGE WAS SOLVED AFTER THE CTF HAD ENDED!**
 
-*Category: Memory-forensics*,  *Points: 482* 
+*Category: Memory-forensics*,  *Points: 482 (0 DUE TO LATE SUBMISSION)* 
 
 In this challenge, we were got this description: 
 
