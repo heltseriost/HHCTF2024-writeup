@@ -1,7 +1,11 @@
 # HHCTF2024-writeup
 Solved challenges for HHCTF 2024
 
-Timespan: 5 hours
+Timespan: 5 hours¨
+
+Part of team: mystery-masters
+
+
 
 ---
 
