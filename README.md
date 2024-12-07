@@ -29,16 +29,22 @@ A simple `strings` command on the `.dmp` file with `grep` got me the flag.
 
 In this challenge, we were tasked with finding a malicious executable.
 
+This was the description:
+
+"If you haven't already done so please read the Intro challenge for this category!
+
+You receive a communique from Sherlock, Lestrade has been in touch about a potential lead for evidence in the RAM dump.
+
+It appears that the Consortium of Criminal Fellowes has been targeting people in prominent positions, like judges and politicians. They group has created a new piece of malware which they are using to steal sensitive data, encrypt it and ransom the owners. Find the name of the executable file that is being run so it can be traced and investigated."
+
 **Flag format:** `HHCTF{name-of-executable-without-file-extension}`
 
 Here, I started using Volatility3.
 
-Running the command:  
-`python3 vol.py -f memory.dmp windows.malfind`  
-showed malicious processes related to `powershell.exe`.
+I checked to see any malicious executed commands with the `cmdline` plugin:
 
-Then, running:  
 `python3 vol.py -f memory.dmp windows.cmdline`  
+
 I found this:
 
 <img width="1260" alt="SCR-20241207-lawv" src="https://github.com/user-attachments/assets/34d2d7f9-199e-427f-a7d3-3f37c34ce430">
