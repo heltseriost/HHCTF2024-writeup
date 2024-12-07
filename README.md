@@ -226,7 +226,7 @@ I opened the html file and viewed the page source:
 
 Probably the password to the zip file. 
 
-Opening `python3` and converting it to ascii using the command `print(bytes([110, 101, 120, 116, 83, 116, 101, 112]).decode())` I got `nextStep`.
+Opening `python3` and converting it to ascii using the command `print(bytes([110, 101, 120, 116, 83, 116, 101, 112]).decode())` I got the string "nextStep".
 
 So I used that password to open up the zip file.
 
