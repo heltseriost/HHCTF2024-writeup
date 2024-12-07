@@ -86,7 +86,7 @@ I did not notice any hints of a password so I decided to use `fcrackzip` with th
 
 `Password = Sherlock`.
 
-Running ´file on the extracted file `maniacal_plans.zip` revealed that it was not a zip file but a text-file.
+Running the `file` command on the extracted file `maniacal_plans.zip` revealed that it was not a zip file but a text-file.
 
 When i used `cat` i found this text:
 
