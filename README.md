@@ -33,9 +33,7 @@ In this challenge, we were tasked with finding a malicious executable.
 
 This was the description:
 
-"If you haven't already done so please read the Intro challenge for this category!
-
-You receive a communique from Sherlock, Lestrade has been in touch about a potential lead for evidence in the RAM dump.
+"You receive a communique from Sherlock, Lestrade has been in touch about a potential lead for evidence in the RAM dump.
 
 It appears that the Consortium of Criminal Fellowes has been targeting people in prominent positions, like judges and politicians. They group has created a new piece of malware which they are using to steal sensitive data, encrypt it and ransom the owners. Find the name of the executable file that is being run so it can be traced and investigated."
 
@@ -80,7 +78,6 @@ The zipfile was password protected.
 I did not notice any hints of a password so I decided to use `fcrackzip` with the `rockyou.txt` wordlist.
 
 <img width="839" alt="SCR-20241207-ljgc" src="https://github.com/user-attachments/assets/132cede7-990e-486d-a68f-ba2a7763994f">
-
 
 `Password = Sherlock`.
 
